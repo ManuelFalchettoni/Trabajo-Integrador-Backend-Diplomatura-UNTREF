@@ -1,3 +1,6 @@
+Tuve un error al pushear una carpeta
+
+
 # Proyecto Integrador: CRUD con Node.js y MongoDB
 
 ## Descripción del Proyecto
