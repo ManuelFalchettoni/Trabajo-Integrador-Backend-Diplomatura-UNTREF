@@ -1,0 +1,33 @@
+### Ruta principal
+GET http://localhost:3000/
+
+### Mostrar todos los productos
+GET http://localhost:3000/producto
+
+### Buscar un producto
+GET http://localhost:3000/producto/29
+
+### Agregar un producto
+POST http://localhost:3000/producto/
+Content-Type: application/json
+
+{
+    "codigo": 32,
+  "nombre": "Motorola G7",
+  "precio": 3.0,
+  "categoria": "Telefonía"
+}
+
+### Editar un producto
+PATCH  http://localhost:3000/producto/editar/32
+Content-Type: application/json
+
+{
+    "codigo": 32,
+  "nombre": "Motorola G7",
+  "precio": 1.0,
+  "categoria": "Telefonía"
+}
+
+### Borrar un producto
+DELETE  http://localhost:3000/producto/borrar/32
